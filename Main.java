@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class MyProgram {
+class Main {
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     String solved[] = new String[] {"y","y","y","y","o","o","o","o","b","b","b","b","r","r","r","r","g","g","g","g","w","w","w","w","y","y","y","y","o","o","o","o","b","b","b","b","r","r","r","r","g","g","g","g","w","w","w","w","y","o","b","r","g","w"};
