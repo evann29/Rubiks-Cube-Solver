@@ -21,7 +21,7 @@ class Main {
         cube3.setScramble(scra, ort);
     }
     if(ans.equals("random")){
-      System.out.println("how many moves?");
+      System.out.println("how many moves would you like the scramble to be?");
       int num = scan.nextInt();
       System.out.println(cube3.randomScramble(num));
     }
