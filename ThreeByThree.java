@@ -30,11 +30,10 @@ public class ThreeByThree {
       }
       while(!color[50].equals("b"))
         cubeRotate("y", 1);
-      System.out.println("\nhold the cube so white is on the bottom and blue is on the front");
+      System.out.println("\nhold the cube so white is on the bottom and blue is on the front\n");
 
       //daisy
       int turns = 0;
-      int rots = 0;
       System.out.println("daisy");
       while(!(color[44].equals("w") && color[45].equals("w") && color[46].equals("w") && color[47].equals("w")) && !(color[30].equals(color[49]) && color[34].equals(color[50]) && color[38].equals(color[51]) && color[42].equals(color[52]))) {
         for(int i = 0; i < 2; i++) {
